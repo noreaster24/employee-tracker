@@ -4,10 +4,13 @@ const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
 
 // get all employees and their information
-router.get('/employee', (req, res) => {
-    const sql = `SELECT employee.*, role.title
+router.get('/employees', (req, res) => {
+    const sql = `SELECT employees.*, role.title
     AS title
-    FROM employee
-    LEFT JOIN role
-    ON employee.id = role.id`
+    FROM employees
+    LEFT JOIN roles
+    ON employees.id = roles.id`
 });
+
+
+module.exports = router;
