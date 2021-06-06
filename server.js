@@ -18,6 +18,8 @@ app.use((req, res) => {
     res.status(404).end();
 });
 
+
+
 // start server after connection
 db.connect(err => {
     if (err) throw err;
