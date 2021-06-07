@@ -1,3 +1,14 @@
+## How to Use
+* In the Terminal, run 'npm install'
+* Once all dependencies have downloaded, run 'node app.js'
+* You will be met with a number of options. Select your preferred function and the Terminal will populate the desired information
+* The prompts should continue and you can view, add, or update the database
+* When finished, press Control/Command + 'C' to close the program
+
+### Notes
+* There are bugs in the program that are being resolved
+* Once these bugs have been fixed, the program will be resubmitted for review
+
 # User Story
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
@@ -22,5 +33,4 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
-## How to Use
-* Run mysql in the command line and USE employee_tracker to load the appropriate database
+
