@@ -1,6 +1,6 @@
 ## How to Use
 * In the Terminal, run 'npm install'
-* Once all dependencies have downloaded, run 'node app.js'
+* Once all dependencies have downloaded, run 'npm start' or 'node app.js'
 * You will be met with a number of options. Select your preferred function and the Terminal will populate the desired information
 * The prompts should continue and you can view, add, or update the database
 * When finished, press Control/Command + 'C' to close the program
@@ -8,6 +8,9 @@
 ### Notes
 * There are bugs in the program that are being resolved
 * Once these bugs have been fixed, the program will be resubmitted for review
+
+# Demo Video
+[Demo of Employee Tracker Program](https://drive.google.com/file/d/1RRQ-P8Xg6dV5yxA5nfLAW1gki12hYNLo/view)
 
 # User Story
 AS A business owner

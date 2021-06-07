@@ -45,6 +45,7 @@ const addDept = function () {
 //add a new role to the database
 function addRole() {
     let departments = [];
+
     db.query(`SELECT * FROM departments`,
         function (err, res) {
             if (err) throw err;
@@ -190,7 +191,7 @@ const questions = () => {
             choices: ["View All Departments", "View All Roles", "View All Employees", "Add a Department", "Add a Role", "Add an Employee", "Update an Employee Role"],
         }
     ])
-        .then((answers) => {
+        .then(async (answers) => {
             if (answers.server_action === "View All Departments") {
                 viewDepts();
                 questions();
