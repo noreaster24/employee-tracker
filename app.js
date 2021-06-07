@@ -38,7 +38,7 @@ const viewRoles = function () {
 
 // add a new department to the database
 const addDept = function () {
-
+    console.log("coming soon...");
 };
 
 //add a new role to the database
@@ -166,7 +166,7 @@ const addEmployee = function () {
 
 // Update an employee's role in the database
 const updateEmployee = function () {
-
+    console.log("coming soon");
 };
 
 // initiate the program
